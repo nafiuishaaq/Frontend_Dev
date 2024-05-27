@@ -1,0 +1,45 @@
+*{
+    --black: #2f2d2d;
+    --white: #f4f4f9;
+}
+section{
+    width: 70%;
+    margin-inline: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid rgb(70, 70, 70); 
+    padding: 0.2rem;
+    text-align: center;
+}
+#dstvTableHeader{
+    background-color: #4758e9;
+    color: var(--white);
+}
+#goTvTableHeader{
+    background-color: #3cf486;
+    color: var(--black);
+}
+#dstvH2{
+    color: rgb(47, 150, 187);
+}
+#gotvH2{
+    color: red;
+}
+#gotvH2 span{
+    color: #227f47;
+}
+@media  screen and (max-width: 400px) {
+    section{
+        width: 100%;
+    }
+    th, td{
+        border: 1px solid rgb(70, 70, 70); 
+        /* padding: 0.4rem 0.2rem; */
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}

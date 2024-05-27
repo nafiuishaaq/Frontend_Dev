@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        background-color: aqua;
+        padding: 20px;
+        width: 300px;
+        height: 470px;
+        border-radius: 20px;
+      }
+      .calc {
+        background-color: royalblue;
+        /* padding: 20px; */
+        width: 250;
+        height: 250;
+        border-radius: 20px;
+      }
+
+      .screen {
+        background-color: rgb(176, 176, 176);
+        color: white;
+        width: 70%;
+        height: 50px;
+        border-radius: 10px;
+      }
+
+      .calc input {
+        margin: 15px;
+      }
+      .equal {
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" align="center">
+      <form name="forms">
+        <marquee behavior="blink" direction=""
+          ><h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+            CALCULATOR PROJECT
+          </h3>
+        </marquee>
+        <div class="calc">
+          <input
+            type="text"
+            id="answer"
+            name="screen"
+            class="screen"
+            placeholder="0"
+          /><br /><br />
+          <input type="button" value="7" onclick="forms.screen.value+='7'" />
+          <input type="button" value="8" onclick="forms.screen.value+='8'" />
+          <input type="button" value="9" onclick="forms.screen.value+='9'" />
+          <input type="button" value="." onclick="forms.screen.value+='.'" />
+          <input
+            type="button"
+            value="C"
+            onclick="forms.screen.value=''"
+          /><br /><br />
+
+          <input type="button" value="4" onclick="forms.screen.value+='4'" />
+          <input type="button" value="5" onclick="forms.screen.value+='5'" />
+          <input type="button" value="6" onclick="forms.screen.value+='6'" />
+          <input type="button" value="+" onclick="forms.screen.value+='+'" />
+          <input type="button" value="-" onclick="forms.screen.value+='-'" />
+          <br /><br />
+
+          <input type="button" value="1" onclick="forms.screen.value+='1'" />
+          <input type="button" value="2" onclick="forms.screen.value+='2'" />
+          <input type="button" value="3" onclick="forms.screen.value+='3'" />
+          <input type="button" value="*" onclick="forms.screen.value+='*'" />
+          <input type="button" value="/" onclick="forms.screen.value+='/'" />
+          <br /><br />
+
+          <input type="button" value="0" onclick="forms.screen.value+='0'" />
+          <input type="button" value="00" onclick="forms.screen.value+='00'" />
+          <input
+            type="button"
+            value="000"
+            onclick="forms.screen.value+='000'"
+          />
+          <input
+            type="button"
+            value="%"
+            onclick="forms.screen.value=((forms.screen.value)/100)+'%'"
+          />
+          <input
+            type="button"
+            class="equal"
+            value="="
+            onclick="forms.screen.value=eval(forms.screen.value)"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

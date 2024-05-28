@@ -13,10 +13,10 @@ body{
 }
 
 .container{
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 
@@ -43,4 +43,34 @@ nav ul li a{
 
 main h1{
     text-align: center;
+}
+
+/* .card{
+    
+
+} */
+
+.community{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.explore{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+
+.explore img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+    color: #f7f7f7;
+    padding: 5px;
 }

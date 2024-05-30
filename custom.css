@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+    background-color: rgb(68, 9, 157);
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+ul li a{
+text-decoration: none;
+color: aliceblue;
+padding: 5px;
+}
+
+ul li a:hover{
+    background-color: rgb(227, 90, 252);
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -4,8 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .schedule-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border: 2px solid #000;
+      }
+      .schedule-table,
+      .schedule-table th,
+      .schedule-table td {
+        border: 1px solid black;
+      }
+      .schedule-table th,
+      .schedule-table td {
+        padding: 10px;
+        text-align: center;
+      }
+      .schedule-table th {
+        background-color: #cce5ff;
+      }
+      .highlight-row {
+        background-color: #99ccff;
+        font-weight: bold;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+        color: white;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      nav ul li a:hover {
+        color: #ff7e5f;
+      }
+
+      nav .search-bar {
+        display: flex;
+        align-items: center;
+      }
+
+      nav .search-bar input {
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+      }
+
+      nav .search-bar button {
+        background-color: #ff7e5f;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    </style>
   </head>
   <body>
+    <div>
+      <a href="../index.html">Back To Landing Page</a>
+    </div>
     <h3 align="center">Weekly Planner</h3>
     <center>
       <table>
@@ -218,5 +296,77 @@
 
     <h2>Phone: 1800 817 675</h2>
     <h2>www.utas.edu.au/students</h2>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th colspan="6">Weekly Classroom Schedule</th>
+        </tr>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="highlight-row">
+          <td colspan="6">Recess</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="highlight-row">
+          <td colspan="6">Lunch</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

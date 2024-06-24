@@ -1,0 +1,42 @@
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.quote{
+    background-color: #ccc;
+    border-left: 5px solid red;
+    padding: 15px;
+    width: 50%;
+}
+
+.unordered{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.ordered{
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding: 5px;
+}
+nav ul li:hover{
+background-color: rgb(50, 218, 148);
+border-radius: 5px;
+padding: 5px;
+}

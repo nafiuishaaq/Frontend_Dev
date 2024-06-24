@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b3a4a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  align-items:center;
+  max-width:900px;
+}
+
+.form-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-box p {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form-box input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.form-box button {
+    padding: 10px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #019a76;
+}
+
+.form-box .terms, .form-box .switch {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+
+.form-box .terms a, .form-box .switch a {
+    color: #00b894;
+    text-decoration: none;
+}
+
+.form-box .terms a:hover, .form-box .switch a:hover {
+    text-decoration: underline;
+}

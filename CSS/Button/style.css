@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3f3e3e;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.link-grid a {
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-grid a:hover {
+  transform: scale(1.05);
+}
+.link-grid .link1 {
+  background-color: rgba(218, 2, 2, 0.833);
+}
+.link-grid .link2 {
+  background-color: rgb(216, 142, 5);
+  border-radius: 7px;
+}
+.link-grid .link3 {
+  background-color: purple;
+  border: 1.3px solid #fff;
+}
+.link-grid .link4 {
+  background-color: blue;
+  border: 1.3px solid #fff;
+  border-radius: 7px;
+}
+.link-grid .link5 {
+  background-color: green;
+  border: 1.3px dotted greenyellow;
+  /* padding: 5px; */
+}
+.link-grid .link6 {
+  background-color: green;
+  border: 1.3px dashed #fff;
+}
+.link-grid .link7 {
+  background-color: yellow;
+  color: #000;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.link-grid .link8 {
+  background-color: orangered;
+  color: #fff;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.link-grid .link9 {
+  background-color: green;
+border: 2px dashed white;
+outline: 4px solid green;
+height: 16px;
+width: 65px;
+}
+.link-grid .link10 {
+ background-color: gray;
+border-top: 2px dashed yellow;
+border-bottom: 2px dashed yellow;
+outline: 4px solid #424242;
+height: 16px;
+width: 70px;
+}
+
+.eleven {
+  margin-top: 10px;
+  height: 25px;
+  padding-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff00ff;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.eleven:hover {
+  transform: scale(1.05);
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.link-grid .twelve {
+  height: 25px;
+  margin-top: 10px;
+  padding-left: 4px;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.twelve .circle2 {
+  width: 15px;
+  height: 15px;
+  background-color: purple;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+.link-grid .link13 {
+  background: linear-gradient(
+    to right,
+    rgb(0, 10, 0),
+    rgb(14, 218, 14),
+    rgb(0, 10, 0)
+  );
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.link-grid .link14 {
+  background: linear-gradient(145deg, red, purple, blue);
+}
+.link15 {
+       background: repeating-radial-gradient(#59f68e, #59f68e, #4106d7);     
+}
+
+.link-grid .link16 {
+   background-color: rgb(37, 37, 37);
+box-shadow: 0 0 15px rgb(170, 232, 233);
+}

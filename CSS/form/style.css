@@ -1,0 +1,103 @@
+body{
+    background-color: #BE2EDD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    margin-top: 80px;
+    border-radius: 4px;
+  }
+
+  .h1top{
+    text-align: center;
+  }
+
+  .btn-facebook{
+    background-color: #3D67AF;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .btn-twitter{
+    background-color: #1BA2F4;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 0;
+
+  }
+
+  .header-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2px;
+  }
+
+  form input{
+    padding: 12px;
+    padding-left: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgb(195, 195, 195);
+    outline: none;
+  }
+
+  form input:focus{
+    border: 1px solid #BE2EDD;
+  }
+
+  .login{
+    padding: 10px;
+    background-color: #BE2EDD;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-inline: auto;
+    border: 0;
+    border-radius: 3px;
+  }
+
+  .plink{
+    text-align: center;
+  }
+
+  .plink a{
+    text-decoration: none;
+    color: #BE2EDD;
+  }
+
+  .right{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #BE2EDD;
+  }
+
+  .user{
+    position: relative;
+  }
+
+  .user i{
+    position: absolute;
+    padding-left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }

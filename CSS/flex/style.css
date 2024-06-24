@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+
+.header1{
+    background-color: orange;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.header2{
+    background-color: blue;
+    padding: 10px;
+    font-size: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.header3{
+    background-color: red;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.nav{
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}

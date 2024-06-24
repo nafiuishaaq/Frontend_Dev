@@ -1,0 +1,18 @@
+main{
+    background-color: rgb(245, 245, 141);
+    text-align: center;
+    padding: 3%;
+}
+.div1, .div2{
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid green;
+    padding: 20px;
+}
+.div2{
+    margin-top: 1%;
+}
+input{
+    width: 400px;
+    margin-top: 5px;
+}

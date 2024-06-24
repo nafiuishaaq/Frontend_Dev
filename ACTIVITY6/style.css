@@ -1,0 +1,35 @@
+/* label{
+    background-color: rgb(240, 240, 129);
+} */
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;  
+}
+th{
+    font-weight: 900;
+}
+.me{
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.abt{
+    background-color:rgb(245, 245, 131);
+    height: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+span{
+    color: red;
+}
+img{
+    position: absolute;
+    width: 30%;
+    margin-left: 70%;
+}
+big{
+    font-weight: 900;
+}

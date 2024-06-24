@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    padding-inline: 7rem;
+}
+table{
+    border-collapse: collapse;
+    width: 85%;
+    text-align: left; 
+}
+th{
+    background-color: rgb(1, 1, 83);
+    color: rgb(0, 0, 0);
+    padding: 0.3rem;
+}
+td{
+    padding: 0.3rem;
+}
+.whitebg{
+    background-color: white;
+}
+.peachbg{
+    background-color: rgb(245, 162, 118);
+    padding: 0.5rem;
+}
+
+
+/* table 2 */
+.table2{
+    width: 70%;
+    margin-block: 3rem;
+    text-align: center;
+}
+.table2 tr, .table2 tr td{
+    border: 1px solid white;
+}
+.sn{
+    background-color: rgb(175, 177, 179);
+}
+.bluebg{
+    background-color: lightblue;
+}
+.maroon{
+    background-color: rgba(242, 167, 92, 0.517);
+}
+#blackColumn{
+    background-color: black;
+    color: white;
+}
+#blueColumn{
+    background-color: rgb(5, 77, 101);
+    color: white;
+}
+#maroonColumn{
+    background-color: rgba(110, 60, 10);
+    color: white;
+}

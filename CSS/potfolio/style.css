@@ -64,22 +64,6 @@ ul li a:hover{
     border: 2px dotted black;
 }
 
-@media screen and (max-width:750px) {
-    ul{
-        display: none;
-    }
-    .logo{
-        margin: 0 auto;
-    }
-    .icons{
-        display: none;
-    }
-
-    .leftimg{
-        width: 30%;
-    }
-    
-}
 
 header{
     background-image: url(image/head.png);
@@ -127,9 +111,10 @@ section{
 
 .biography{
     clear: both;
-    margin: 20px;
+    margin: 10px;
     border-left: 3px solid var(--pure);
     padding: 5px;
+    text-align: justify;
 }
 
 .leftimg{
@@ -203,4 +188,31 @@ section{
 .footer{
     background-color: black;
     height: 100vh;
+}
+
+
+
+@media screen and (max-width:750px) {
+    ul{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .icons{
+        display: none;
+    }
+
+    .leftimg{
+        float: left;
+        width: 45%;
+    }
+
+    .bio p{
+        font-size: 30px;
+    }
+
+
+    
+    
 }

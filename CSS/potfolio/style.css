@@ -112,6 +112,7 @@ section{
 .biography{
     clear: both;
     margin: 10px;
+    margin-top: 20px;
     border-left: 3px solid var(--pure);
     padding: 5px;
     text-align: justify;
@@ -209,10 +210,13 @@ section{
     }
 
     .bio p{
-        font-size: 30px;
+        font-size: 25px;
     }
 
-
+    .hamburger i{
+        font-size: 35px;
+        color: var(--pure);
+    }
     
     
 }

@@ -64,6 +64,23 @@ ul li a:hover{
     border: 2px dotted black;
 }
 
+@media screen and (max-width:750px) {
+    ul{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .icons{
+        display: none;
+    }
+
+    .leftimg{
+        width: 30%;
+    }
+    
+}
+
 header{
     background-image: url(image/head.png);
     width: 100%;
@@ -71,13 +88,13 @@ header{
     background-repeat: no-repeat;
 }
 
-header h1{
+/* header h1{
     color: var(--pure);
     text-align: center;
     padding: 130px;
-    font-size: 4rem;
-    /* border: 1px solid var(--pure); */
-}
+    font-size: 300%;
+    border: 1px solid var(--pure);
+} */
 
 section{
     height: 100vh;

@@ -1,0 +1,41 @@
+.container {
+display: grid;
+width: 60%;
+margin: 20px auto;
+grid-template-rows: 100px 400px 100px;
+text-align: center;
+gap: 10px;
+}
+header,
+footer {
+background-color: red;
+border: 8px solid black;
+}
+main > * {
+border: 8px solid black;
+}
+main {
+/* background-color: #a33cbf; */
+display: grid;
+gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-areas:
+    "nav one one"
+    "nav two three";
+}
+nav {
+background-color: aquamarine;
+grid-area: nav;
+}
+.cont1 {
+background-color: yellow;
+grid-area: one;
+}
+.cont2 {
+background-color: rgb(4, 0, 255);
+grid-area: two;
+}
+.cont3 {
+background-color: rgb(77, 255, 0);
+grid-area: three;
+}

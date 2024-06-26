@@ -81,9 +81,12 @@ header{
 } */
 
 section{
-    height: 100vh;
+    height: 200vh;
 }
 
+#about{
+    width: 100%;
+}
 .about{
     background-color: var(--grey);
     color: var(--white);
@@ -100,7 +103,7 @@ section{
 .bio{
     background-color: var(--white);
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     padding: 15px;
 }
 
@@ -121,7 +124,7 @@ section{
 .leftimg{
     float: left;
     border-radius: 10px;
-    margin: 10px
+    /* margin: 10px */
 }
 
 .skills{
@@ -195,28 +198,53 @@ section{
 
 @media screen and (max-width:750px) {
     ul{
+        display: flex;
+        gap: 0;
+
+    }
+
+    ul li a{
+        font-size: 15px;
+    }
+
+    .ahide a{
         display: none;
     }
+    
+
+    /* .ahide i{
+    color: var(--white);
+    font-size: 17px;
+    margin: 10px;
+
+    } */
+    
     .logo{
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        display: none;
     }
     .icons{
         display: none;
     }
 
     .leftimg{
-        float: left;
-        width: 45%;
+        width: 100%;
+        height: 300px;
     }
 
     .bio p{
         font-size: 25px;
     }
 
-    .hamburger i{
+    /* .hamburger i{
+        display: none;
         font-size: 35px;
-        color: var(--pure);
+        color: var(--pure); */
     }
+
+    section{
+        height: 150vh;
+    }
+
+   
     
-    
-}
